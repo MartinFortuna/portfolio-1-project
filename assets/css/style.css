@@ -172,3 +172,16 @@ p {
 .div3 { grid-area: 3 / 1 / 4 / 2; }
 .div4 { grid-area: 3 / 2 / 4 / 3; }
 .div5 { grid-area: 4 / 1 / 5 / 3; } 
+
+/* background image */
+
+.div2 {
+    text-align: center;
+    background: url('../images/pexels-rodnae-productions-8580719.jpg') no-repeat center center;
+    width: 100%;
+    min-height: 200px;
+    background-size: cover; 
+    margin-top: auto;
+    margin-bottom: 50px;
+    padding:0;
+}
