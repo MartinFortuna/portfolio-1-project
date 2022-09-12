@@ -185,3 +185,17 @@ p {
     margin-bottom: 50px;
     padding:0;
 }
+
+/* text styling*/
+
+.div3, .div4 {
+    margin: 20px;
+    text-align: center;
+    color: black;
+    width: 100%;
+}
+
+.charts {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
