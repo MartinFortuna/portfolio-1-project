@@ -45,4 +45,25 @@ h1, h2 {
     font-family: 'Spirax', cursive;
     font-size: 250%;
 }
- 
+
+/* Css grid taken from CSS Grid Generator */
+
+/* index.html */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+}
+
+.nav-bar { grid-area: 1 / 1 / 2 / 6;}
+.hero-image { grid-area: 2 / 1 / 5 / 6; }
+.why-cook { grid-area: 5 / 2 / 6 / 5; }
+.about-us { grid-area: 6 / 2 / 7 / 5; }
+.live-classes { grid-area: 7 / 2 / 8 / 5; }
+.social-media { grid-area: 8 / 1 / 9 / 6; }
