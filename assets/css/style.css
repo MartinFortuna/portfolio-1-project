@@ -51,9 +51,10 @@ h1, h2 {
 
 /* index.html */
 
-.container {
+.grid-container-index {
     width: 100vw;
     height: 100vh;
+    max-width: 2000px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-column-gap: 0px;
