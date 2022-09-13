@@ -73,7 +73,7 @@ h1, h2 {
 /* Hero image */
 
 .hero-image {
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
     width: 100%;
     min-height: 500px;
     background-size: cover; 
@@ -84,7 +84,7 @@ h1, h2 {
 /* images */
 
 .chefs-image {
-    background: url('../images/chefs.png') no-repeat center center;
+    background: url('../images/chefs.webp') no-repeat center center;
     min-width: 200px;
     min-height: 200px;
     background-size: cover;
@@ -120,15 +120,17 @@ p {
 
 #text1 {
     margin-top: 120px;
+    background-color:rgba(37, 37, 37, 0.6);
+    
 }
 #text2 {
     margin-top: 120px;
+    background-color:rgba(37, 37, 37, 0.6);
 }
 
 .why-cook, .about-us, .live-classes > h2 {
     text-align: center;
     margin: 20px;
-
 }
 
 
