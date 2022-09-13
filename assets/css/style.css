@@ -22,7 +22,6 @@ body {
      text-decoration: none;
      font-size: 150%;
      line-height: 100px;
-     margin-left: 25px;
      margin-right: 25px;
  }
  
@@ -288,14 +287,10 @@ p {
 /* For medium screen sizes from 699px wide and down */
 @media screen and (max-width: 699px) {
 
-    #logo {
-        line-height: 100px;
-        margin-left: 25px;
-    }
-
     #menu {
         float: right;
-        margin-left: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
         margin-bottom: 20px;
         line-height: 25px;
     }
@@ -316,28 +311,20 @@ p {
     .div4 { grid-area: 4 / 1 / 5 / 2; }
     .div5 { grid-area: 5 / 1 / 6 / 2; }
 
-  .div3, .div4 {
+.div3, .div4 {
         margin: 0px;
         text-align: center;
         color: black;
         width: 100%;
     }
+
 }
 
 /* For medium screen sizes from 420px wide and down */
 @media screen and (max-width: 420px) {
 
-    #menu {
-        clear: left;
-        text-align: center;
-        margin-left: 0px;
-        margin-right: 15px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
     
     #menu li{
-        text-align: center;
         margin-left: 5px;
         margin-right: 5px;
         margin-bottom: 20px;
