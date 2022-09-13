@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Spirax&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -44,6 +45,7 @@ body {
 h1, h2 {
     font-family: 'Spirax', cursive;
     font-size: 250%;
+    text-align: center;
 }
 
 /* Css grid taken from CSS Grid Generator */
@@ -52,16 +54,15 @@ h1, h2 {
 
 .container {
     width: 100vw;
-    min-width: 0px;
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(8, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;  
+    overflow-x: hidden;
 }
 
-.nav-bar { grid-area: 1 / 1 / 2 / 6;}
+.nav-bar { grid-area: 1 / 1 / 2 / 6; }
 .hero-image { grid-area: 2 / 1 / 5 / 6; }
 .why-cook { grid-area: 5 / 2 / 6 / 5; }
 .about-us { grid-area: 6 / 2 / 7 / 5; }
@@ -126,7 +127,7 @@ p {
     background-color:rgba(37, 37, 37, 0.6);
 }
 
-.why-cook, .about-us, .live-classes > h2 {
+.why-cook, .about-us, .live-classes {
     text-align: center;
     margin: 20px;
 }
@@ -323,8 +324,8 @@ p {
     }
 }
 
-/* For medium screen sizes from 400px wide and down */
-@media screen and (max-width: 400px) {
+/* For medium screen sizes from 420px wide and down */
+@media screen and (max-width: 420px) {
 
     #menu {
         clear: left;
