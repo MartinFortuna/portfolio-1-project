@@ -202,6 +202,7 @@ p {
 .charts {
     margin-top: 30px;
     margin-bottom: 50px;
+    margin-right: 10px;
 }
 
 /* sign-up.html */
@@ -358,8 +359,14 @@ p {
     .about-us { grid-area: 4 / 1 / 5 / 2; }
     .live-classes { grid-area: 5 / 1 / 6 / 2; }
     .social-media  { grid-area: 6 / 1 / 7 / 2; }
+}
 
+/* For medium screen sizes from 345px wide and down */
 
+@media screen and (max-width: 345px) {
+  iframe {
+    width: 80%;
+ }
 }
 
 /* For medium screen sizes from 285px wide and down */
