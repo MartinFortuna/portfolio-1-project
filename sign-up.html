@@ -1,82 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="assets/css/style.css">
-      <title>Cooking 101</title>
-   </head>
-   <body>
-      <div class="container-3">
-         <div class="section-1">
-            <header>
-               <nav>
-                  <a href="index.html">
-                     <h1 id="logo">Cooking 101</h1>
-                  </a>
-                  <ul id="menu">
-                     <li>
-                        <a href="sign-up.html">Sign Up</a>
-                     </li>
-                     <li>
-                        <a href="recipes.html">Recipes</a>
-                     </li>
-                     <li>
-                        <a href="index.html">Home</a>
-                     </li>
-                  </ul>
-               </nav>
-            </header>
-         </div>
-         <div class="section-2">
-            <div class="signup-form">
-               <!-- Form code taken from Love Running project, Code institute -->
-               <form method="POST" action="https://formdump.codeinstitute.net/">
-                  <h2>Let's get you signed up!</h2>
-                  <label for="fname">First Name</label>
-                  <input id="fname" name="first_name" type="text" class="text-input" required>
-                  <label for="lname">Last Name</label>
-                  <input id="lname" name="last_name" type="text" class="text-input" required>
-                  <label for="email">Email Address</label>
-                  <input type="email" id="email" name="email_address" class="text-input" required>
-                  <hr>
-                  <label for="french-cuisine">French cuisine</label>
-                  <input type="radio" id="french-cuisine" name="cuisine_preference" value="french-cuisine" required>
-                  <hr>
-                  <label for="brazilian-cuisine">Brazilian-Cuisine</label>
-                  <input type="radio" id="brazilian-cuisine" name="cuisine_preference" value="brazilian-cuisine" required>
-                  <hr>
-                  <label for="both">Both</label>
-                  <input type="radio" id="both" name="cuisine_preference" value="both" required>
-                  <input class="join-button" type="submit" value="Let's Cook!">
-               </form>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="script.js" defer></script>
+    <title>Cooking 101</title>
+  </head>
+  <body>
+    <div class="container-3">
+      <div class="section-1">
+        <header>
+          <!-- Footer code taken from Web Dev Simplified's youtube video https://www.youtube.com/watch?v=At4B7A4GOPg -->
+          <nav class="navbar">
+            <div class="brand-title">
+              <a href="index.html">
+                <h1 class="logo">Cooking 101</h1>
+              </a>
             </div>
-         </div>
-         <div class="section-3">
-            <footer>
-               <ul class="social-networks">
-                  <li>
-                     <a href="https://facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-                  </li>
-                  <li>
-                     <a href="https://twitter.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-                  </li>
-                  <li>
-                     <a href="https://youtube.com" target="_blank" rel="noopener"
-                        aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-                  </li>
-                  <li id="instagram">
-                     <a href="https://instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-                  </li>
-               </ul>
-            </footer>
-         </div>
+            <a href="#" class="toggle-button">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+              <ul class="menu">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="recipes.html">Recipes</a>
+                </li>
+                <li>
+                  <a href="sign-up.html">Sign Up</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
       </div>
-      <!-- font awesome script -->
-      <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
-   </body>
+      <div class="section-2">
+        <div class="signup-form">
+          <!-- Form code taken from Love Running project, Code institute -->
+          <form method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Let's get you signed up!</h2>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" class="text-input" required>
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" class="text-input" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" class="text-input" required>
+            <hr>
+            <label for="french-cuisine">French cuisine</label>
+            <input type="radio" id="french-cuisine" name="cuisine_preference" value="french-cuisine" required>
+            <hr>
+            <label for="brazilian-cuisine">Brazilian-Cuisine</label>
+            <input type="radio" id="brazilian-cuisine" name="cuisine_preference" value="brazilian-cuisine" required>
+            <hr>
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="cuisine_preference" value="both" required>
+            <input class="join-button" type="submit" value="Let's Cook!">
+          </form>
+        </div>
+      </div>
+      <div class="section-3">
+        <footer>
+          <ul class="social-networks">
+            <li>
+              <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)">
+                <i class="fab fa-twitter-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)">
+                <i class="fab fa-youtube-square"></i>
+              </a>
+            </li>
+            <li id="instagram">
+              <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+  </body>
 </html>
