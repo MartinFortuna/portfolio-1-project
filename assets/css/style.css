@@ -30,7 +30,7 @@ body {
  
  a:link { text-decoration: none; }
  a:visited { text-decoration: none; }
- a:hover { text-decoration: none; }
+ a:hover { text-decoration: underline; }
 
  /* Logo and headings*/
 
@@ -365,9 +365,9 @@ p {
  }
 }
 
-/* For medium screen sizes from 285px wide and down */
+/* For medium screen sizes from 305px wide and down */
 
-@media screen and (max-width: 285px) {
+@media screen and (max-width: 305px) {
 
     #logo {
         float: left;
