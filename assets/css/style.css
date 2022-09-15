@@ -105,7 +105,7 @@ h2 {
   overflow-x: hidden;
 }
 
-.nav-bar {
+.navbar-outer-box-index {
   grid-area: 1 / 1 / 2 / 6;
 }
 .hero-image {
@@ -216,7 +216,7 @@ p {
 
 /* recipes.html */
 
-.container-2 {
+.grid-container-recipes {
   width: 100vw;
   height: 100vh;
   display: grid;
@@ -227,25 +227,25 @@ p {
   overflow-x: hidden;
 }
 
-.div1 {
+.navbar-outer-box-recipes {
   grid-area: 1 / 1 / 2 / 3;
 }
-.div2 {
+.hero-image-recipes {
   grid-area: 2 / 1 / 3 / 3;
 }
-.div3 {
+.left-content-recipes {
   grid-area: 3 / 1 / 4 / 2;
 }
-.div4 {
+.right-content-recipes {
   grid-area: 3 / 2 / 4 / 3;
 }
-.div5 {
+.social-media-recipes {
   grid-area: 4 / 1 / 5 / 3;
 }
 
 /* background image */
 
-.div2 {
+.hero-image-recipes {
   text-align: center;
   background: url("../images/pexels-rodnae-productions-8580719.webp") no-repeat
     center center;
@@ -259,8 +259,8 @@ p {
 
 /* text styling*/
 
-.div3,
-.div4 {
+.left-content-recipes,
+.right-content-recipes {
   margin: 20px;
   text-align: center;
   color: black;
@@ -275,7 +275,7 @@ p {
 
 /* sign-up.html */
 
-.container-3 {
+.grid-container-sign-up {
   width: 100vw;
   height: 100vh;
   display: grid;
@@ -286,19 +286,19 @@ p {
   overflow-x: hidden;
 }
 
-.section1 {
+.navbar-outer-box-sign-up {
   grid-area: 1 / 1 / 2 / 2;
 }
-.section2 {
+.sign-up-form-outer-box {
   grid-area: 2 / 1 / 3 / 2;
 }
-.section3 {
+.social-media-sign-up {
   grid-area: 3 / 1 / 4 / 2;
 }
 
 /* background image */
 
-.section-2 {
+.sign-up-form-outer-box {
   background: url("../images/pexels-vanessa-loring-5971872.webp") no-repeat
     center center;
   width: 100%;
@@ -370,7 +370,7 @@ p {
     line-height: 25px;
   }
 
-  .container-2 {
+  .grid-container-recipes {
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -380,24 +380,24 @@ p {
     grid-row-gap: 0px;
   }
 
-  .div1 {
+  .navbar-outer-box-recipes {
     grid-area: 1 / 1 / 2 / 2;
   }
-  .div2 {
+  .hero-image-recipes {
     grid-area: 2 / 1 / 3 / 2;
   }
-  .div3 {
+  .left-content-recipes {
     grid-area: 3 / 1 / 4 / 2;
   }
-  .div4 {
+  .right-content-recipes {
     grid-area: 4 / 1 / 5 / 2;
   }
-  .div5 {
+  .social-media-recipes {
     grid-area: 5 / 1 / 6 / 2;
   }
 
-  .div3,
-  .div4 {
+  .left-content-recipes,
+  .right-content-recipes {
     margin: 0px;
     text-align: center;
     color: black;
@@ -455,7 +455,7 @@ p {
     grid-row-gap: 0px;
   }
 
-  .nav-bar {
+  .navbar-outer-box-index {
     grid-area: 1 / 1 / 2 / 2;
   }
   .hero-image {
