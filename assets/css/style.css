@@ -145,16 +145,24 @@ h2 {
 
 /* images */
 
+.class-image {
+  margin-top: 20px;
+    text-align: center;
+    color: aliceblue;
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+
 .chefs-image {
   background: url("../images/chefs.webp") no-repeat center center;
   min-width: 200px;
   min-height: 200px;
-  background-size: cover;
   border-radius: 50%;
-  vertical-align: middle;
+  background-size: cover;
 }
 
-.image1 {
+.french-live-classes-image {
   background: url("../images/pexels-polina-kovaleva-8350211.webp") no-repeat
     center center;
   width: 100%;
@@ -162,7 +170,7 @@ h2 {
   background-size: cover;
 }
 
-.image2 {
+.brazil-live-classes-image {
   background: url("../images/pexels-dayvison-de-oliveira-silv.webp") no-repeat
     center center;
   width: 100%;
@@ -170,23 +178,13 @@ h2 {
   background-size: cover;
 }
 
-.image1,
-.image2 {
-  vertical-align: middle;
-}
-
-/* text styling*/
+/* text styling */
 
 p {
   margin: 30px;
 }
 
-#text1 {
-  margin-top: 120px;
-  padding: 5px;
-  background-color: rgba(37, 37, 37, 0.6);
-}
-#text2 {
+.live-classes-text {
   margin-top: 120px;
   padding: 5px;
   background-color: rgba(37, 37, 37, 0.6);
@@ -197,16 +195,6 @@ p {
 .live-classes {
   text-align: center;
   margin: 20px;
-}
-
-#left-about,
-#right-about,
-#chefs-image {
-  margin-top: 20px;
-  text-align: center;
-  color: aliceblue;
-  vertical-align: middle;
-  display: inline-block;
 }
 
 /* footer */
