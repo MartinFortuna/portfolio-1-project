@@ -72,6 +72,13 @@ This website contains many features, which we will explain now.
 
 ![Sign Up](readme/feature-screenshots/sign-up.png)
 
+- __Thank you message Page__
+
+  - This page will inform the user he has successfully signed-up and the we will be contacted shortly.
+  - It also provides the user with a button to check the recipes page.
+
+![Than you messeage](readme/feature-screenshots/thank-you-message.png)
+
 - __Color Palette__
 
   - Main colors are black and white for user accessibility.
@@ -83,7 +90,6 @@ This website contains many features, which we will explain now.
 - Add more types of cuisines to the recipes divided by cuisine types with a step-by-step text description.
 - Add a vegetarian and vegan section to recipes.
 - Make social media links land on chefs-related social media pages.
-- Create a thank you message when the user submits the sign-up form instead of having the Code Institute message.
 
 ## Technologies Used
 
@@ -106,7 +112,7 @@ All features above were tested on the deployed website on the following browsers
 
 Navigation bars and links to social media websites are working as intended. The form works as it should, and the buttons perform the given actions. 
 
-I encountered a bug when deploying the website on Mozilla Firefox for the first time, my grid structure did not apply, I fixed the bug by removing the selector "grid-template-rows".
+I encountered a bug when deploying the website on Mozilla Firefox for the first time, my grid structure rule for rows did not apply, I fixed the bug by removing the  "grid-template-rows", after this fix the webiste worked fine on Mozilla Firefox.
 
 ### Lighthouse testing
 
@@ -129,6 +135,10 @@ Results for Lighthouse once fixes applied:
     - __Sign-up page__
 
     ![Sign-up Lighthouse](readme/lighthouse-testing/sign-up-lighthouse.png)
+
+    - __Thank you message page__
+
+    ![Thank you message Lighthouse](readme/lighthouse-testing/thank-you-message-lighthouse.png)
 
 ## Validator Testing 
  
