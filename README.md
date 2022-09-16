@@ -6,6 +6,7 @@ Users of this website will find all the necessary information about Cooking 101.
 Why cook, about us, live classes, recipes, and sign-up form sections are clear and easy to understand.
 The site targets users looking for an easy and free start at cooking.
 
+
 ![Am I Responsive Website](readme/feature-screenshots/responsivness.png)
 
 ## Features
@@ -80,8 +81,17 @@ This website contains many features, which we will explain now.
 - In the future I would like to:
 
 - Add more types of cuisines to the recipes divided by cuisine types with a step-by-step text description.
+- Add a vegetarian and vegan section to recipes.
 - Make social media links land on chefs-related social media pages.
 - Create a thank you message when the user submits the sign-up form instead of having the Code Institute message.
+
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Testing 
 
