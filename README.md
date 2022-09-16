@@ -140,7 +140,7 @@ Results for Lighthouse once fixes applied:
 
 ## Unfixed Bugs
 
-- No bugs left unfixed.
+- No known bugs left unfixed.
 
 ## Deployment
 
